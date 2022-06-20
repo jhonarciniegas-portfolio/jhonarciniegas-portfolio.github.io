@@ -20,11 +20,11 @@ for (var i = 0; themeDots.length > i; i++) {
 
 function setTheme(mode) {
   if (mode == 'blue') {
-    document.getElementById('theme-style').href = '../W1/css/style.css';
+    document.getElementById('theme-style').href = '../css/style.css';
   }
 
   if (mode == 'light') {
-    document.getElementById('theme-style').href = '../W1/css/ligth.css';
+    document.getElementById('theme-style').href = '../css/ligth.css';
   }
 
   /*if (mode == 'green') {
